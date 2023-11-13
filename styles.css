@@ -1,0 +1,74 @@
+* {
+    margin: o;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(3, 3, 100);
+    color: #fffafa;;
+    font-family: Tahoma;
+    font-size: 16px;
+    padding: 2px;
+}
+header {
+    text-align: center;
+}
+main {
+    width: 50vh;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(3, 8, 70);
+    border-radius: 25px;
+}
+
+label {
+    display: block;
+    margin: 0.5rem 0;
+  }
+
+  textarea, input {
+    display: block;
+    margin: 0.3rem 0;
+  }
+  
+  .input-radio {
+    display: inline;
+    text-align: left;
+    margin-right: 6px;
+
+  }
+
+  input [type="submit"] {
+    display: inline;
+  }
+
+ select {
+    margin-bottom: 5px;
+ }
+
+ .rel {
+    margin-top: 6px;
+ }
+
+ .news {
+    display: inline;
+    margin-right: 6px;
+ }
+
+ fieldset {
+    border: none;
+    margin-bottom: 15px;
+ }
+
+::placeholder {
+    padding: 6px;
+ }
+
+ textarea {
+    width: 100%;
+ }
+
+ .top {
+    margin-top: 6px;
+ }

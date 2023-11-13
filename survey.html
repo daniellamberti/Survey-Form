@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="stylesheet" href="styles.css">
+      <title>Document</title>
+  </head>
+
+  <body>
+      <header> 
+        <h1 id="title"> Survey form</h1>
+        <p id="description">Build an app including a survey FORM</p>
+      </header>
+        
+      <main>
+        <form id="survey-form">
+          <fieldset class="top"> 
+            <label id="name-label" for="name">Enter your full name: <input type="text" id="name" placeholder="John Wayne" required></label>
+            <label id="email-label" for="email">Enter your email: <input type="email" id="email" placeholder="john.wayne@gmail.com" required> </label>
+            <label id="number-label" for="number">Enter a number: <input type="number" id="number" min="4" max="10" placeholder="8"></label>
+          </fieldset>
+          <fieldset> 
+            <select id="dropdown">
+            <label>Choose a number:
+              <option>Choose a number</option>
+              <option>1</option>
+              <option>2</option>
+            </label>
+            </select>
+          </fieldset>
+          <fieldset> 
+            <legend class="rel">Enter your relationship: </legend>
+            <label>
+            <input class="input-radio" type="radio" name="choose-an-option" value="Father">Father
+            </label>
+            <label><input class="input-radio" type="radio" name="choose-an-option" value="Mother">Mother
+            </label>
+            <label><input class="input-radio" type="radio" name="choose-an-option" value="Daugther">Daugther
+            </label>
+            <label><input class="input-radio" type="radio" name="choose-an-option" value="Son">Son
+            </label>
+          </fieldset>
+          <fieldset> 
+            <legend>Select your preferences: </legend>
+            <label for="newspapers"><input class="news" id="newspapers" type="checkbox" value="newspapers">Newspapers</label>
+            <label for="magazines"><input class="news" id="magazines" type="checkbox" value="magazines">Magazines</label>
+            <label for="comics"><input class="news" id="comics" type="checkbox"  value="comics">Comics</label>
+            <label for="books"><input class="news" id="books" type="checkbox" value="books50-60">Books</label>
+          </fieldset>
+          <fieldset> 
+            <label>Write your comments:
+            <textarea rows="4" cols="10"></textarea></label>
+            <input type="submit" value="Submit" />
+          </fieldset>
+        </form>
+      </main>
+  </body>
+</html>
